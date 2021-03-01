@@ -4,6 +4,7 @@ import { VehicleFormComponent } from './Components/vehicle-form/vehicle-form.com
 
 const routes: Routes = [
   {path:"vehicle/new",component:VehicleFormComponent}
+  
 ];
 
 @NgModule({

@@ -4,7 +4,7 @@
       <form #f="ngForm" (ngSubmit)="submit()"  action="" novalidate>
 
       <h1>New Vehicle</h1>
-        <p>{{vehicle|json}}</p>
+        <!-- <p>{{vehicle|json}}</p> -->
       <div class="form-group mb-3">
         <label for="make" class="form-label">Select Make</label>
         <select required #make="ngModel" class="form-select" aria-label="Default select example" id="make" (change)="change()" [(ngModel)]="vehicle.make" name="make">
